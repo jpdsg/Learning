@@ -85,7 +85,7 @@ ref(APA): Spreng.Spreng的小屋.https://spreng.top. Retrieved 2024/12/25.
 ref(APA): Spreng.Spreng的小屋.https://spreng.top. Retrieved 2024/12/25.
    ```
 
-   ![](F:\c语言编程资料\Cpro\单链表逆置_1.jpg)
+   ![](https://jpdsg-3.oss-cn-beijing.aliyuncs.com/image2/20250214161538028.jpg)
 
    > 这里的next在循环的最开始赋值是有讲究的，避免了current为NULL时执行next = current->next的潜在BUG。
 
@@ -116,9 +116,9 @@ ref(APA): Spreng.Spreng的小屋.https://spreng.top. Retrieved 2024/12/25.
 
    （之前想了巨久😭）今天结合spreng简化后的代码又画图理解了一下
 
-   ![](F:\c语言编程资料\Cpro\单链表逆置_2.1.jpg)
+   ![](https://jpdsg-3.oss-cn-beijing.aliyuncs.com/image2/20250214161543225.jpg)
 
-   ![](F:\c语言编程资料\Cpro\单链表逆置_2.2.jpg)
+   ![](https://jpdsg-3.oss-cn-beijing.aliyuncs.com/image2/20250214161545741.jpg)
 
    ## **单链表的排序**
 
@@ -166,6 +166,6 @@ ref(APA): Spreng.Spreng的小屋.https://spreng.top. Retrieved 2024/12/25.
 
 - 如何命名以提高代码可读性
 
-  > 通过加注释，合理命名变量实现，文中的prev、current、next就形象地表明三个节点，尽量不要其一些无意义的名字如p（除非和数学公式相关、或者有加注释）
+  > 通过加注释，合理命名变量实现，文中的prev、current、next就形象地表明三个节点，尽量不要取一些无意义的名字如p（除非和数学公式相关、或者有加注释）
   >
   > 较长命名的，建议用驼峰命名法或下划线命名法，如 printLink 或 print_link
